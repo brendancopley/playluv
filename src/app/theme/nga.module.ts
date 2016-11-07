@@ -1,5 +1,5 @@
-import { NgModule, ModuleWithProviders }      from '@angular/core';
-import { CommonModule }  from '@angular/common';
+import { NgModule, ModuleWithProviders } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
@@ -25,7 +25,9 @@ import {
   BaMultiCheckbox,
   BaPageTop,
   BaPictureUploader,
-  BaSidebar
+  BaSidebar,
+  BaDualList,
+  BaMultiSelect
 } from './components';
 
 import { BaCardBlur } from './components/baCard/baCardBlur.directive';
@@ -39,7 +41,8 @@ import {
 import {
   BaAppPicturePipe,
   BaKameleonPicturePipe,
-  BaProfilePicturePipe
+  BaProfilePicturePipe,
+  BaMask
 } from './pipes';
 
 import {
@@ -67,7 +70,9 @@ const NGA_COMPONENTS = [
   BaMultiCheckbox,
   BaPageTop,
   BaPictureUploader,
-  BaSidebar
+  BaSidebar,
+  BaDualList,
+  BaMultiSelect
 ];
 
 const NGA_DIRECTIVES = [
@@ -80,7 +85,8 @@ const NGA_DIRECTIVES = [
 const NGA_PIPES = [
   BaAppPicturePipe,
   BaKameleonPicturePipe,
-  BaProfilePicturePipe
+  BaProfilePicturePipe,
+  BaMask
 ];
 
 const NGA_SERVICES = [
